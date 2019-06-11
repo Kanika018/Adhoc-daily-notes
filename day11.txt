@@ -1,16 +1,24 @@
 DAY1
+
+
 initiated with a video over ways of communication , ways to easily communicate and develop a network
-Application/Software -> Interpreter -> Kernel -> RAM,CPU,HardDisk (Kernel interacts with the hardware and checks for space availability. ##operating systems @Student's point of view~:
-Windows(Closed Source)
-Linux (Open Source)--> its a kernel and not an OS
-Mac(Costly)
+Application/Software -> Interpreter -> Kernel -> RAM,CPU,HardDisk (Kernel interacts with the hardware and checks for space availability. 
+
+##operating systems @Student's point of view~:
+1. Windows(Closed Source)
+2. Linux (Open Source)--> its a kernel and not an OS
+3. Mac(Costly)
+
+
 To change backend code of Firefox~:
 $ gedit /usr/bin/Firefox -> Change the Code
 
 Kernal(3 types)~:
-NT(Windows) ~: .exe(extension) && Examples ~ (Windows 7,8,10)
-LINUX -> RPM(.rpm) { used for bigdata in redhat } Debian(.deb) {used for ML in Ubuntu/mint}
-DARWIN ~ :.dmg && Examples ~ (OSX , SNOWL)
+1. NT(Windows) ~: .exe(extension) && Examples ~ (Windows 7,8,10)
+2. LINUX -> RPM(.rpm) { used for bigdata in redhat } Debian(.deb) {used for ML in Ubuntu/mint}
+3. DARWIN ~ :.dmg && Examples ~ (OSX , SNOWL)
+
+
 Few useful Linux Commands~:
 $ mkdir folder-name{1..50} # {} encloses a range and creates 50 folder in linux
 $ useradd user-name # Creates a new user
@@ -29,50 +37,62 @@ $ ls -F # check which is folder and which is file in a directory
 $ mkdir -p folder1/folder2 # both folders will be created together
 $ rm -rf pi* # deletes all folders starting with 'pi' , use anything instead of 'pi'
 $ su # switch users through command line
+
+
 Default Architecture of Windows~:
-Main Account ~ : Admin
-Text Editor ~ : Notepad
-CMD
-Internet Explorer
-.exe based OS
-OS Storage ~ : C Drive
-C:\user\user-name # Stores info about environment of seperate users(Desktop,Downloads,Videos etc..)
+1. Main Account ~ : Admin
+2. Text Editor ~ : Notepad
+3. CMD
+4. Internet Explorer
+5. .exe based OS
+6. OS Storage ~ : C Drive
+7. C:\user\user-name # Stores info about environment of seperate users(Desktop,Downloads,Videos etc..)
+
+
 Default Architecture of Linux(Red Hat)~:
-Main Account ~: root
-Text editor ~: Gedit
-Terminal
-Firefox
-.rpm based
-OS Storage ~: /(backslash)
-/home # Stores folders of different users each with seperate data
-/root ~> Admin
+1. Main Account ~: root
+2. Text editor ~: Gedit
+3. Terminal
+4. Firefox
+5. .rpm based
+6. OS Storage ~: /(backslash)
+7. /home # Stores folders of different users each with seperate data
+8. /root ~> Admin
+
+
 Python Integration in Various Technologies~:
-Pi (meu)python ~> Raspberyy pi
-Web-App ~> Django,FLask
-All Databases
-OS ~> Linux,Windows,Mac
-Network --> Devices (Router,Switch,etc)
-Bigdata
-Cloud Computing
-.NET ~> ironpython
-JAVA ~> Jython
+1 Pi (meu)python ~> Raspberyy pi
+2 Web-App ~> Django,FLask
+3 All Databases
+4 OS ~> Linux,Windows,Mac
+5 Network --> Devices (Router,Switch,etc)
+6 Bigdata
+7 Cloud Computing
+8 .NET ~> ironpython
+9 JAVA ~> Jython
+
+
 To install Python 3.6 in rhel 7.5 server~ :
-move to etc directory (using cd command)
-move to yum.repos.d/ directory
-create a new repo ~ > gedit adhoc.repo
-write~ : [ad] # []these brackets can enclose anything, you can write Pykid instead as well. baseurl=http://13.234.66.67/summer19/python3 # online repository created by adhoc networks gpgcheck=0 # not to ask for certification
-save it and run command yum install python3* -y
-Python installed successully.
+1. move to etc directory (using cd command)
+2. move to yum.repos.d/ directory
+3. create a new repo ~ > gedit adhoc.repo
+4.write~ : [ad] # []these brackets can enclose anything, you can write Pykid instead as well. baseurl=http://13.234.66.67/summer19/python3 # online repository created by adhoc networks gpgcheck=0 # not to ask for certification
+5. save it and run command yum install python3* -y
+6. Python installed successully.
+
+
 Notes:
-Calendar used by linux is called Georgian andd other available is Julean
-CNCF ~ : A great open source Community
-Python is an interpreted language.
-Python provides reusability of memory ~ > (Stores the value and not the variable)
-Each website we run on browser, temporarily stores all its information on local pc RAM
-(75~80) % of the data in the world is stored in string format.
-ML and AI both uses int/float values
+1 Calendar used by linux is called Georgian andd other available is Julean
+2 CNCF ~ : A great open source Community
+3 Python is an interpreted language.
+4 Python provides reusability of memory ~ > (Stores the value and not the variable)
+5 Each website we run on browser, temporarily stores all its information on local pc RAM
+6 (75~80) % of the data in the world is stored in string format.
+7 ML and AI both uses int/float values
+
+
 Data-Types~ :
-Immutable
+1 Immutable
 Python is strictly binded
 examples ( int,float,str,byte,tuple)
-.es (list,set,dictionary)
+2 Mutable *example (list,set,dictionary)
